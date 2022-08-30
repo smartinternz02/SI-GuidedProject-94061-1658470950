@@ -1,0 +1,36 @@
+h1 {
+    font-family: -apple-system;
+    color: blue;
+}
+h2{
+    font-family: -apple-system;
+    color: black;
+}
+p{
+    font-family: "Apple Chancery"
+    color: black;
+    font-size: x-large;
+}
+
+.big{
+    z-index: 1;
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    margin:0px auto;
+}
+.opacity{
+    background: url("../img/corn.jpg");
+    background-size: cover;
+    display: block;
+    height: 100vh;
+    left: -5px;
+    top:-5px;
+    bottom:-5px;
+    position: fixed;
+    right: -5px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
